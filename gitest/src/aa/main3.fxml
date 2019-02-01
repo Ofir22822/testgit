@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="aa.mainController">
+   <children>
+      <AnchorPane fx:id="anchor1" layoutY="6.0" prefHeight="465.0" prefWidth="366.0" style="-fx-border-color: black;" />
+      <AnchorPane layoutX="379.0" layoutY="6.0" prefHeight="139.0" prefWidth="102.0" style="-fx-border-color: black;">
+         <children>
+            <Button fx:id="btnSearch" layoutX="26.0" layoutY="22.0" mnemonicParsing="false" onAction="#loadSearchScreen" text="search" />
+            <Button layoutX="25.0" layoutY="92.0" mnemonicParsing="false" text="Button" />
+            <Button fx:id="btnStudent" layoutX="23.0" layoutY="58.0" mnemonicParsing="false" onAction="#loadStudentScreen" text="student" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

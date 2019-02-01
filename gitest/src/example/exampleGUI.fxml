@@ -7,10 +7,11 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="279.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="handlerController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="279.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.exampleGUIcontroller">
    <children>
       <TextField fx:id="txtID" layoutX="65.0" layoutY="115.0" promptText="fill user ID" />
-      <Button fx:id="btnShowInfo" layoutX="90.0" layoutY="154.0" mnemonicParsing="false" onAction="#getUserInfo" text="show user info" />
+      <Button fx:id="btnShowInfo" layoutX="90.0" layoutY="154.0" mnemonicParsing="false" onAction="#getSubscriberInfo" text="show user info" />
+      <Button fx:id="btnShowInfo" layoutX="200.0" layoutY="154.0" mnemonicParsing="false" onAction="#disconnect" text="disconnect" />
       <Label layoutX="105.0" layoutY="85.0" text="Get user :">
          <font>
             <Font name="System Bold" size="14.0" />
